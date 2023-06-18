@@ -1,0 +1,6 @@
+{
+  "exclude": ["supabase"],
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  },
+}

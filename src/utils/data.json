@@ -1,0 +1,152 @@
+{
+  "startup": {
+    "id": "startup",
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Crafting a compelling elevator pitch",
+        "keywords": ["elevator pitch", "startup", "communication", "idea", "business", "pitching", "presentation"]
+      },
+      {
+        "id": 2,
+        "title": "Building a strong personal brand as an entrepreneur",
+        "keywords": ["personal branding", "entrepreneurship", "online presence", "brand building", "networking", "self-promotion", "brand image"]
+      },
+      {
+        "id": 3,
+        "title": "Developing a scalable business model",
+        "keywords": ["business model", "startup", "scalability", "growth strategy", "market analysis", "revenue model", "competitive advantage"]
+      },
+      {
+        "id": 4,
+        "title": "Attracting and retaining top talent for your startup",
+        "keywords": ["startup", "human resources", "talent acquisition", "recruitment", "employee retention", "company culture", "employee benefits", "job satisfaction"]
+      },
+      {
+        "id": 5,
+        "title": "Creating an effective go-to-market strategy",
+        "keywords": ["go-to-market strategy", "product launch", "market penetration", "marketing plan", "sales strategy", "customer segmentation", "competitive analysis", "distribution channels"]
+      }
+    ]
+  },
+  "branding": {
+    "id": "branding",
+    "tasks": [
+      {
+        "id": 6,
+        "title": "Designing a memorable logo for your brand",
+        "keywords": ["branding", "logo design", "brand identity", "visual identity", "brand recognition", "brand logo", "logo typography", "color psychology"]
+      },
+      {
+        "id": 7,
+        "title": "Crafting a compelling brand story",
+        "keywords": ["branding", "brand storytelling", "emotional connection", "brand narrative", "brand values", "brand voice", "authenticity", "brand messaging"]
+      },
+      {
+        "id": 8,
+        "title": "Creating a consistent visual identity for your brand",
+        "keywords": ["branding", "visual identity", "brand guidelines", "brand aesthetics", "brand consistency", "brand colors", "typography", "visual elements"]
+      },
+      {
+        "id": 9,
+        "title": "Building brand loyalty through exceptional customer experiences",
+        "keywords": ["branding", "customer experience", "brand loyalty", "customer satisfaction", "customer engagement", "brand trust", "customer feedback", "personalization"]
+      },
+      {
+        "id": 10,
+        "title": "Effective social media branding strategies",
+        "keywords": ["branding", "social media marketing", "brand presence", "social media strategy", "brand engagement", "content strategy", "influencer marketing", "community building"]
+      }
+    ]
+  },
+  "seo": {
+    "id": "seo",
+    "tasks": [
+      {
+        "id": 11,
+        "title": "Optimizing your website for search engines",
+        "keywords": ["SEO", "website optimization", "search engine ranking", "organic traffic", "SEO best practices", "keyword research", "on-page SEO", "meta tags"]
+      },
+      {
+        "id": 12,
+        "title": "Creating compelling content for SEO",
+        "keywords": ["SEO", "content creation", "keyword optimization", "content marketing", "blogging", "SEO copywriting", "long-tail keywords", "content promotion"]
+      },
+      {
+        "id": 13,
+        "title": "Building high-quality backlinks for SEO",
+        "keywords": ["SEO", "backlink building", "link building strategies", "guest blogging", "link outreach", "domain authority", "anchor text", "natural link profiles"]
+      },
+      {
+        "id": 14,
+        "title": "Understanding and leveraging SEO analytics",
+        "keywords": ["SEO", "analytics", "data-driven decisions", "SEO reporting", "keyword tracking", "Google Analytics", "conversion tracking", "traffic analysis"]
+      },
+      {
+        "id": 15,
+        "title": "Local SEO strategies for small businesses",
+        "keywords": ["SEO", "local search", "geotargeting", "local business SEO", "Google My Business", "local directories", "online reviews", "local keyword targeting"]
+      }
+    ]
+  },
+  "productivity": {
+    "id": "productivity",
+    "tasks": [
+      {
+        "id": 16,
+        "title": "Mastering time management techniques",
+        "keywords": ["productivity", "time management", "work-life balance", "task prioritization", "efficiency", "procrastination", "goal setting", "time blocking"]
+      },
+      {
+        "id": 17,
+        "title": "Effective task prioritization strategies",
+        "keywords": ["productivity", "task management", "priority setting", "task organization", "task scheduling", "task delegation", "urgent vs important", "productivity matrix"]
+      },
+      {
+        "id": 18,
+        "title": "Streamlining workflows and optimizing processes",
+        "keywords": ["productivity", "workflow optimization", "process efficiency", "automation", "lean methodology", "continuous improvement", "standardization", "workflow mapping"]
+      },
+      {
+        "id": 19,
+        "title": "Utilizing productivity tools and apps",
+        "keywords": ["productivity", "tools", "technology", "productivity software", "task management apps", "note-taking apps", "time tracking tools", "project management software"]
+      },
+      {
+        "id": 20,
+        "title": "Developing a growth mindset for increased productivity",
+        "keywords": ["productivity", "mindset", "personal development", "continuous improvement", "self-motivation", "learning mindset", "resilience", "positive thinking"]
+      }
+    ]
+  },
+  "marketing": {
+    "id": "marketing",
+    "tasks": [
+      {
+        "id": 21,
+        "title": "Creating a comprehensive marketing plan",
+        "keywords": ["marketing", "marketing strategy", "campaign planning", "target audience", "marketing objectives", "competitive analysis", "SWOT analysis", "marketing budget"]
+      },
+      {
+        "id": 22,
+        "title": "Effective social media marketing strategies",
+        "keywords": ["marketing", "social media", "digital marketing", "content strategy", "social media advertising", "audience targeting", "social media analytics", "influencer partnerships"]
+      },
+      {
+        "id": 23,
+        "title": "Email marketing best practices",
+        "keywords": ["marketing", "email campaigns", "newsletter", "email automation", "email segmentation", "email personalization", "email deliverability", "A/B testing"]
+      },
+      {
+        "id": 24,
+        "title": "Utilizing influencer marketing for brand promotion",
+        "keywords": ["marketing", "influencer collaboration", "brand advocacy", "influencer selection", "influencer partnerships", "influencer marketing campaigns", "influencer ROI", "influencer authenticity"]
+      },
+      {
+        "id": 25,
+        "title": "Data-driven marketing insights and analytics",
+        "keywords": ["marketing", "data analysis", "marketing performance", "data-driven decision-making", "marketing metrics", "data visualization", "customer segmentation", "predictive analytics"]
+      }
+    ]
+  }
+}

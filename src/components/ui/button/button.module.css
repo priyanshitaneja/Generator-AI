@@ -1,0 +1,51 @@
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-radius: 9999px;
+  padding: 0.75em 1.25em;
+  font-size: 0.85rem;
+}
+
+.primary {
+  background-color: var(--accent);
+  color: #fff;
+  gap: 0.5em;
+}
+.primary:hover {
+  background-color: var(--accent-hover);
+}
+
+.secondary {
+  border: 1.5px solid var(--black);
+}
+.secondary:hover,
+.secondary:active {
+  background-color: var(--light-grey-light-bg);
+}
+
+.danger {
+  --red: #dc143c;
+  color: var(--red);
+  border: 1.5px solid var(--red);
+  font-weight: 700;
+}
+.danger:hover {
+  background-color: var(--red);
+  color: white;
+  border-color: var(--red);
+}
+
+@media screen and (max-width: 576px) {
+  .button {
+    font-size: 13px;
+    padding: 0.75em 1em;
+  }
+}

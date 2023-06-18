@@ -1,0 +1,23 @@
+.generate {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+  overflow: hidden;
+  gap: 1.5em 2em;
+}
+
+.main {
+  padding: 0 1em 1em;
+  display: flex;
+  gap: 1.5em;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}

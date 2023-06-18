@@ -1,0 +1,63 @@
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* fonts */
+@font-face {
+  font-family: 'Wix';
+  src: url('./assets/WixMadeforText.ttf') format('truetype-variations');
+  font-weight: 400 900;
+}
+
+:root {
+  font-size: 1rem;
+  /* colors */
+
+  --accent: #090b86;
+  --accent-hover: #120241;
+  --black: #000112;
+  --very-dark-grey-dark-bg: #20212c;
+  --dark-grey: #2b2c37;
+  --lines-dark: #3e3f4e;
+  --medium-grey: #828fa3;
+  --lines-light: #e4ebfa;
+  --light-grey-light-bg: #f4f7fd;
+  --white: #ffffff;
+  --red: #ea5555;
+  --red-hover: #ff9898;
+
+  --sidebar-width: 250px;
+  --header-height: 75px;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  flex-grow: 1;
+  font-family: 'Wix', sans-serif;
+  background-color: var(--light-grey-light-bg);
+  color: var(--black);
+  font-weight: 500;
+}
+
+#portal {
+  z-index: 100000;
+}
+
+input {
+  font: inherit;
+}
+
+.ProseMirror:focus {
+  outline: none;
+  /* outline: 1px solid #ccc; */
+}

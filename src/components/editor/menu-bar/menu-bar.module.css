@@ -1,0 +1,52 @@
+.menu {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  gap: 0.1em;
+  /* padding: 0.5em; */
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+  /* transform: translateX(-0.25%); */
+}
+
+.menu button {
+  flex-grow: 1;
+  font: inherit;
+  font-size: 13px;
+  /* background-color: transparent; */
+  border: 1px solid #ccc;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0.75em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--lines-dark);
+}
+
+.menu .active {
+  border-radius: 10px;
+  color: var(--accent);
+  font-weight: 900;
+}
+
+.menu .bold {
+  font-family: serif;
+  font-weight: 900;
+}
+
+.menu .italic {
+  font-family: serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 576px) {
+  .menu button {
+    font-size: 12px !important;
+  }
+}

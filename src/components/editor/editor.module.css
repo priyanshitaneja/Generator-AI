@@ -1,0 +1,72 @@
+.container {
+  flex-grow: 1;
+  background: var(--white);
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.101545);
+  border-radius: 8px;
+  overflow-y: scroll;
+}
+
+.editor {
+  flex-grow: 1;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.editor > div {
+  flex-grow: 1;
+  /* border: 1px solid red; */
+  padding: 0 1em;
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+}
+.editor h1,
+.editor h2,
+.editor h3,
+.editor h4,
+.editor h5,
+.editor h6 {
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  font-weight: bold;
+}
+
+.editor h1 {
+  font-size: 2em;
+}
+
+.editor h2 {
+  font-size: 1.5em;
+}
+
+.editor h3 {
+  font-size: 1.17em;
+}
+
+.editor h4 {
+  font-size: 1em;
+}
+
+.editor h5 {
+  font-size: 0.83em;
+}
+
+.editor h6 {
+  font-size: 0.67em;
+}
+
+.editor ul,
+.editor ol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 40px;
+}
+
+.editor p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

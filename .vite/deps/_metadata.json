@@ -1,0 +1,74 @@
+{
+  "hash": "cf7c1793",
+  "browserHash": "738af256",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "287ba9bb",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "18beab6e",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "7f986556",
+      "needsInterop": false
+    },
+    "classnames": {
+      "src": "../../node_modules/classnames/index.js",
+      "file": "classnames.js",
+      "fileHash": "63cd64bd",
+      "needsInterop": true
+    },
+    "@tiptap/extension-image": {
+      "src": "../../node_modules/@tiptap/extension-image/dist/index.js",
+      "file": "@tiptap_extension-image.js",
+      "fileHash": "9baa177b",
+      "needsInterop": false
+    },
+    "@tiptap/react": {
+      "src": "../../node_modules/@tiptap/react/dist/index.js",
+      "file": "@tiptap_react.js",
+      "fileHash": "86a4962e",
+      "needsInterop": false
+    },
+    "@tiptap/starter-kit": {
+      "src": "../../node_modules/@tiptap/starter-kit/dist/index.js",
+      "file": "@tiptap_starter-kit.js",
+      "fileHash": "01b746b0",
+      "needsInterop": false
+    },
+    "sse.js": {
+      "src": "../../node_modules/sse.js/lib/sse.js",
+      "file": "sse__js.js",
+      "fileHash": "c00ff5ba",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "31923e99",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-NREMUTAN": {
+      "file": "chunk-NREMUTAN.js"
+    },
+    "chunk-ST3U5LCA": {
+      "file": "chunk-ST3U5LCA.js"
+    },
+    "chunk-QXIZKFXX": {
+      "file": "chunk-QXIZKFXX.js"
+    },
+    "chunk-DFKQJ226": {
+      "file": "chunk-DFKQJ226.js"
+    }
+  }
+}

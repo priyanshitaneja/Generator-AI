@@ -1,151 +1,239 @@
 {
-  "startup": {
-    "id": "startup",
+  "NewYork": {
+    "id": "NewYork",
     "tasks": [
       {
         "id": 1,
-        "title": "Crafting a compelling elevator pitch",
-        "keywords": ["elevator pitch", "startup", "communication", "idea", "business", "pitching", "presentation"]
+        "title": "Exploring the Concrete Jungle",
+        "keywords": [
+          "NYCLife",
+          "newyork",
+          "BigApple",
+          "ExploreNYC",
+          "NewYorkStateOfMind",
+          "NYCAdventures"
+        ]
       },
       {
         "id": 2,
-        "title": "Building a strong personal brand as an entrepreneur",
-        "keywords": ["personal branding", "entrepreneurship", "online presence", "brand building", "networking", "self-promotion", "brand image"]
+        "title": "From Broadway to Central Park",
+        "keywords": [
+          "EmpireState",
+          "ConcreteJungle",
+          "NYCLife",
+          "NYCPhotography",
+          "NewYorkLove"
+        ]
       },
       {
         "id": 3,
-        "title": "Developing a scalable business model",
-        "keywords": ["business model", "startup", "scalability", "growth strategy", "market analysis", "revenue model", "competitive advantage"]
+        "title": "New York Through the Lens: Capturing the City's Iconic Landmarks and Stunning Views",
+        "keywords": [
+          "newyork",
+          "startups",
+          "EmpireState",
+          "ExploreNYC",
+          "NewYorkStateOfMind"
+        ]
       },
       {
         "id": 4,
-        "title": "Attracting and retaining top talent for your startup",
-        "keywords": ["startup", "human resources", "talent acquisition", "recruitment", "employee retention", "company culture", "employee benefits", "job satisfaction"]
-      },
-      {
-        "id": 5,
-        "title": "Creating an effective go-to-market strategy",
-        "keywords": ["go-to-market strategy", "product launch", "market penetration", "marketing plan", "sales strategy", "customer segmentation", "competitive analysis", "distribution channels"]
+        "title": "Uncovering the Magic of New York's Cultural Scene",
+        "keywords": ["newyork", "BigApple", "ConcreteJungle"]
       }
     ]
   },
-  "branding": {
-    "id": "branding",
+  "Oslo": {
+    "id": "Oslo",
     "tasks": [
       {
+        "id": 5,
+        "title": "Embracing the Nordic Bliss: Exploring Oslo's Scenic Beauty",
+        "keywords": ["OsloLife", "NordicBliss", "ExploreOslo", "NatureWonders"]
+      },
+      {
         "id": 6,
-        "title": "Designing a memorable logo for your brand",
-        "keywords": ["branding", "logo design", "brand identity", "visual identity", "brand recognition", "brand logo", "logo typography", "color psychology"]
+        "title": "Cultural Delights: Immersing in Oslo's Art and Heritage",
+        "keywords": [
+          "VikingHistory",
+          "ContemporaryArt",
+          "OsloCulture",
+          "ExploreOslo",
+          "Skiing",
+          "Snowboarding",
+          "IceSkating"
+        ]
       },
       {
         "id": 7,
-        "title": "Crafting a compelling brand story",
-        "keywords": ["branding", "brand storytelling", "emotional connection", "brand narrative", "brand values", "brand voice", "authenticity", "brand messaging"]
+        "title": "Outdoor Adventures: Hiking, Skiing, and More in Oslo's Backyard",
+        "keywords": [
+          "FjordExploration",
+          "SkiParadise",
+          "OutdoorEnthusiast",
+          "NordicCuisine",
+          "SeafoodFeast",
+          "FoodieHaven",
+          "SkiParadise"
+        ]
       },
       {
         "id": 8,
-        "title": "Creating a consistent visual identity for your brand",
-        "keywords": ["branding", "visual identity", "brand guidelines", "brand aesthetics", "brand consistency", "brand colors", "typography", "visual elements"]
+        "title": "Scandinavian Gastronomy: Indulging in Oslo's Culinary Delights",
+        "keywords": ["NordicCuisine", "FoodieHaven", "SkiParadise"]
       },
       {
         "id": 9,
-        "title": "Building brand loyalty through exceptional customer experiences",
-        "keywords": ["branding", "customer experience", "brand loyalty", "customer satisfaction", "customer engagement", "brand trust", "customer feedback", "personalization"]
+        "title": "Winter Wonderland: Embracing Oslo's Snowy Delights and Winter Activities",
+        "keywords": [
+          "Oslo",
+          "WinterActivities",
+          "Skiing",
+          "Snowboarding",
+          "IceSkating"
+        ]
       },
+
       {
         "id": 10,
-        "title": "Effective social media branding strategies",
-        "keywords": ["branding", "social media marketing", "brand presence", "social media strategy", "brand engagement", "content strategy", "influencer marketing", "community building"]
+        "title": "Cultural Festivals: Immersing in Oslo's Vibrant Arts, Music, and Film Scene",
+        "keywords": [
+          "Oslo",
+          "CulturalFestivals",
+          "MusicFestivals",
+          "ArtExhibitions",
+          "FilmScreenings"
+        ]
       }
     ]
   },
-  "seo": {
-    "id": "seo",
+  "Japan": {
+    "id": "Japan",
     "tasks": [
       {
         "id": 11,
-        "title": "Optimizing your website for search engines",
-        "keywords": ["SEO", "website optimization", "search engine ranking", "organic traffic", "SEO best practices", "keyword research", "on-page SEO", "meta tags"]
+        "title": "Tokyo Tales: Unveiling the Wonders of Japan's Dynamic Capital",
+        "keywords": [
+          "Japan",
+          "Tokyo",
+          "CityLife",
+          "CulturalHub",
+          "GastronomicDelights"
+        ]
       },
       {
         "id": 12,
-        "title": "Creating compelling content for SEO",
-        "keywords": ["SEO", "content creation", "keyword optimization", "content marketing", "blogging", "SEO copywriting", "long-tail keywords", "content promotion"]
+        "title": "Zen and Tranquility: Immersing in Japan's Spiritual Temples and Gardens",
+        "keywords": ["Japan", "Zen", "Temples", "Gardens", "InnerPeace"]
       },
       {
         "id": 13,
-        "title": "Building high-quality backlinks for SEO",
-        "keywords": ["SEO", "backlink building", "link building strategies", "guest blogging", "link outreach", "domain authority", "anchor text", "natural link profiles"]
+        "title": "Samurai Soul: Exploring Japan's Ancient Warriors and Traditional Arts",
+        "keywords": [
+          "Japan",
+          "Samurai",
+          "Bushido",
+          "TraditionalArts",
+          "HistoricalHeritage"
+        ]
       },
       {
         "id": 14,
-        "title": "Understanding and leveraging SEO analytics",
-        "keywords": ["SEO", "analytics", "data-driven decisions", "SEO reporting", "keyword tracking", "Google Analytics", "conversion tracking", "traffic analysis"]
-      },
-      {
-        "id": 15,
-        "title": "Local SEO strategies for small businesses",
-        "keywords": ["SEO", "local search", "geotargeting", "local business SEO", "Google My Business", "local directories", "online reviews", "local keyword targeting"]
+        "title": "Nature's Harmony: Discovering Japan's Cherry Blossoms and Natural Wonders",
+        "keywords": [
+          "Japan",
+          "CherryBlossoms",
+          "Sakura",
+          "NaturalBeauty",
+          "SeasonalSplendor"
+        ]
       }
     ]
   },
-  "productivity": {
-    "id": "productivity",
+  "France": {
+    "id": "France",
     "tasks": [
       {
+        "id": 15,
+        "title": "Parisian Delights: Unraveling the Charms of the City of Love",
+        "keywords": ["France", "Paris", "CityofLove", "EiffelTower"]
+      },
+      {
         "id": 16,
-        "title": "Mastering time management techniques",
-        "keywords": ["productivity", "time management", "work-life balance", "task prioritization", "efficiency", "procrastination", "goal setting", "time blocking"]
+        "title": "Gourmet Paradise: Indulging in French Cuisine and Wine",
+        "keywords": ["France", "FrenchCuisine", "WineTasting", "FoodieHeaven"]
       },
       {
         "id": 17,
-        "title": "Effective task prioritization strategies",
-        "keywords": ["productivity", "task management", "priority setting", "task organization", "task scheduling", "task delegation", "urgent vs important", "productivity matrix"]
-      },
-      {
-        "id": 18,
-        "title": "Streamlining workflows and optimizing processes",
-        "keywords": ["productivity", "workflow optimization", "process efficiency", "automation", "lean methodology", "continuous improvement", "standardization", "workflow mapping"]
-      },
-      {
-        "id": 19,
-        "title": "Utilizing productivity tools and apps",
-        "keywords": ["productivity", "tools", "technology", "productivity software", "task management apps", "note-taking apps", "time tracking tools", "project management software"]
-      },
-      {
-        "id": 20,
-        "title": "Developing a growth mindset for increased productivity",
-        "keywords": ["productivity", "mindset", "personal development", "continuous improvement", "self-motivation", "learning mindset", "resilience", "positive thinking"]
+        "title": "Art and History Galore: Exploring France's Museums and Historic Sites",
+        "keywords": [
+          "France",
+          "Art",
+          "History",
+          "Museums",
+          "Palaces",
+          "CulturalHeritage"
+        ]
       }
     ]
   },
-  "marketing": {
-    "id": "marketing",
+  "CityName": {
+    "id": "CityName",
     "tasks": [
       {
-        "id": 21,
-        "title": "Creating a comprehensive marketing plan",
-        "keywords": ["marketing", "marketing strategy", "campaign planning", "target audience", "marketing objectives", "competitive analysis", "SWOT analysis", "marketing budget"]
+        "id": 1,
+        "title": "Exploring the Vibrant Streets and Neighborhoods",
+        "keywords": [
+          "CityName",
+          "ExploreCity",
+          "UrbanAdventures",
+          "CityExploration",
+          "HiddenGems"
+        ]
       },
       {
-        "id": 22,
-        "title": "Effective social media marketing strategies",
-        "keywords": ["marketing", "social media", "digital marketing", "content strategy", "social media advertising", "audience targeting", "social media analytics", "influencer partnerships"]
+        "id": 2,
+        "title": "Culinary Delights: Indulging in Local Cuisine and Foodie Experiences",
+        "keywords": [
+          "CityName",
+          "FoodCulture",
+          "GourmetEats",
+          "FoodieParadise",
+          "LocalFlavors"
+        ]
       },
       {
-        "id": 23,
-        "title": "Email marketing best practices",
-        "keywords": ["marketing", "email campaigns", "newsletter", "email automation", "email segmentation", "email personalization", "email deliverability", "A/B testing"]
+        "id": 3,
+        "title": "City of Art and Culture: Unveiling the Rich Heritage and Contemporary Art Scene",
+        "keywords": [
+          "CityName",
+          "ArtandCulture",
+          "Museums",
+          "ArtGalleries",
+          "HistoricalSites"
+        ]
       },
       {
-        "id": 24,
-        "title": "Utilizing influencer marketing for brand promotion",
-        "keywords": ["marketing", "influencer collaboration", "brand advocacy", "influencer selection", "influencer partnerships", "influencer marketing campaigns", "influencer ROI", "influencer authenticity"]
+        "id": 4,
+        "title": "Thrill and Adventure: Embarking on Outdoor Escapades and Adrenaline-Pumping Activities",
+        "keywords": [
+          "CityName",
+          "OutdoorAdventures",
+          "ThrillSeeking",
+          "ExtremeSports",
+          "NatureExploration"
+        ]
       },
       {
-        "id": 25,
-        "title": "Data-driven marketing insights and analytics",
-        "keywords": ["marketing", "data analysis", "marketing performance", "data-driven decision-making", "marketing metrics", "data visualization", "customer segmentation", "predictive analytics"]
+        "id": 5,
+        "title": "City Nightlife: Dancing, Music, and Entertainment",
+        "keywords": [
+          "CityName",
+          "Nightlife",
+          "BarsandClubs",
+          "LiveMusic",
+          "PartyScene"
+        ]
       }
     ]
   }

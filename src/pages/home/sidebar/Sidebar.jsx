@@ -1,10 +1,20 @@
-import classNames from 'classnames';
-import useApp from '../../../hooks/useApp';
-import styles from './sidebar.module.css';
+import classNames from "classnames";
+import useApp from "../../../hooks/useApp";
+import useModal from "../../../hooks/useModal";
+
+import Button from "../../../components/ui/button/Button";
+import CreateTask from "../../../components/tasks/create-task/CreateTask";
+
+import styles from "./sidebar.module.css";
 
 export default function Sidebar() {
   const { categories, active, setActive, isScreenSm, navOpen, setNavOpen } =
     useApp();
+  const {
+    Modal: CreateTaskModal,
+    isModalOpen,
+    openModal,
+  } = useModal(<CreateTask />);
 
   return (
     <nav
@@ -30,6 +40,12 @@ export default function Sidebar() {
           </li>
         ))}
       </ul>
+      {!navOpen && (
+        <Button onClick={openModal}>
+          <span>+</span> {isScreenSm ? "Add" : "add task"}
+        </Button>
+      )}
+      {isModalOpen && <CreateTaskModal />}
     </nav>
   );
 }

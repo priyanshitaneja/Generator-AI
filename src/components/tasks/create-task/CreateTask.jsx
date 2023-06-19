@@ -10,7 +10,6 @@ export default function CreateTask({ closeModal }) {
   const [keywordInput, setKeywordInput] = useState('');
   const [keywords, setKeywords] = useState([]);
   const { store, setStore, active } = useApp();
-  // const [error, setError] = useState(); // error for minimum keywords
   const ref = useRef();
 
   const addTask = e => {

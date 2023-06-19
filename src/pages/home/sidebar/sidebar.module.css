@@ -35,7 +35,7 @@
   font-weight: 700;
   text-transform: capitalize;
   cursor: pointer;
-  border: 1px solid var(--medium-grey);
+  border: 2px solid #eaeaea;
   border-radius: 45px;
   color: black;
 }

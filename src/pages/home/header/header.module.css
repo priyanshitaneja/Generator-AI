@@ -7,10 +7,10 @@
 }
 
 .logo {
-  cursor: pointer;
-  font-weight: 750;
-  font-size: 32px;
+  font-family: 'Lora', serif;
+  font-size: 42px;
   padding: 0.5em;
+  cursor: pointer;
 }
 
 .header ul {

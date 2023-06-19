@@ -7,12 +7,10 @@
   margin: 0;
 }
 
-/* fonts */
+/* fonts
 @font-face {
-  font-family: 'Wix';
-  src: url('./assets/WixMadeforText.ttf') format('truetype-variations');
-  font-weight: 400 900;
-}
+  font-family: 'Poppins', sans-serif;
+} */
 
 :root {
   font-size: 1rem;
@@ -43,7 +41,7 @@ html {
 
 body {
   flex-grow: 1;
-  font-family: 'Wix', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: var(--light-grey-light-bg);
   color: var(--black);
   font-weight: 500;

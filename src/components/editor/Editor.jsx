@@ -1,30 +1,32 @@
-import Image from '@tiptap/extension-image';
-import { EditorContent, useEditor } from '@tiptap/react';
-import StarterKit from '@tiptap/starter-kit';
-import styles from './editor.module.css';
-import MenuBar from './menu-bar/MenuBar';
-import { useSearchParams } from 'react-router-dom';
-import useApp from '../../hooks/useApp';
-import useGenerate from '../../hooks/useGenerate';
-import buildPrompt from '../../utils/buildPrompt';
-import { useEffect, useRef, useState } from 'react';
-import { SSE } from 'sse.js';
-import LinearLoading from '../ui/linear-loading/LinearLoading';
+import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import Image from "@tiptap/extension-image";
+import { EditorContent, useEditor } from "@tiptap/react";
+import StarterKit from "@tiptap/starter-kit";
+import styles from "./editor.module.css";
+import MenuBar from "./menu-bar/MenuBar";
+import Button from "../ui/button/Button";
+import useApp from "../../hooks/useApp";
+import useGenerate from "../../hooks/useGenerate";
+import buildPrompt from "../../utils/buildPrompt";
+import LinearLoading from "../ui/linear-loading/LinearLoading";
 
-const URL = 'https://xzcrqccpdldulsshrrci.supabase.co/functions/v1/openai';
-const streamEndIndicator = '[DONE]';
+import { SSE } from "sse.js";
+
+const URL = "https://xzcrqccpdldulsshrrci.supabase.co/functions/v1/openai";
+const streamEndIndicator = "[DONE]";
 
 export default function Editor() {
-  const [content, setContent] = useState({ id: null, text: '' });
+  const [content, setContent] = useState({ id: null, text: "" });
 
   const { store } = useApp();
   const [{ tone, isLoading, isGenerating }, dispatch] = useGenerate();
   const [searchParams] = useSearchParams();
-  const category = searchParams.get('category');
-  const taskId = searchParams.get('task');
+  const category = searchParams.get("category");
+  const taskId = searchParams.get("task");
   const prompt = buildPrompt({
     tone,
-    ...store[category].tasks.filter(task => task.id == taskId)[0],
+    ...store[category].tasks.filter((task) => task.id == taskId)[0],
   });
 
   const editor = useEditor({
@@ -39,8 +41,8 @@ export default function Editor() {
   }, [editor]);
 
   useEffect(() => {
-    if (editorRef.current) editorRef.current.commands.setContent('');
-    setContent({ id: null, text: '' });
+    if (editorRef.current) editorRef.current.commands.setContent("");
+    setContent({ id: null, text: "" });
   }, [tone]);
 
   useEffect(() => {
@@ -51,10 +53,10 @@ export default function Editor() {
     let retryCount = 0;
 
     const config = {
-      method: 'POST',
+      method: "POST",
       headers: {
         Authorization: `Bearer ${import.meta.env.VITE_AUTH_KEY}`,
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       payload: JSON.stringify({
         prompt: prompt,
@@ -63,8 +65,8 @@ export default function Editor() {
 
     let eventSource = new SSE(URL, config);
 
-    eventSource.addEventListener('error', e => {
-      console.error('Error occurred:', e);
+    eventSource.addEventListener("error", (e) => {
+      console.error("Error occurred:", e);
       eventSource.close();
 
       if (retryCount < retryLimit) {
@@ -74,20 +76,20 @@ export default function Editor() {
           eventSource = new SSE(URL, config);
         }, 2000); // Retry after 2 seconds
       } else {
-        dispatch({ type: 'set status', isLoading: false, isGenerating: false });
+        dispatch({ type: "set status", isLoading: false, isGenerating: false });
         editorRef.current.setOptions({ editable: true });
       }
     });
-    eventSource.addEventListener('message', e => {
-      editorRef.current.commands.focus('end');
+    eventSource.addEventListener("message", (e) => {
+      editorRef.current.commands.focus("end");
 
       if (!isGenerating)
-        dispatch({ type: 'set generating', isGenerating: true });
+        dispatch({ type: "set generating", isGenerating: true });
 
       const response = e.data;
       if (response === streamEndIndicator) {
         console.log(response, streamEndIndicator);
-        dispatch({ type: 'set status', isLoading: false, isGenerating: false });
+        dispatch({ type: "set status", isLoading: false, isGenerating: false });
         eventSource.close();
         editorRef.current.setOptions({ editable: true });
         return;
@@ -110,10 +112,22 @@ export default function Editor() {
     };
   }, [prompt, isLoading, isGenerating, dispatch]);
 
+  const handleImage = () => {
+    const url = window.prompt("URL");
+    if (url) {
+      editor.chain().focus().setImage({ src: url }).run();
+    }
+  };
+
   return (
     <div className={styles.container}>
       <MenuBar editor={editor} />
       {isLoading && <LinearLoading />}
+      <div className={styles.img_btn}>
+        <Button onClick={handleImage}>
+          Add image from URL
+        </Button>
+      </div>
       <EditorContent editor={editor} className={styles.editor} />
     </div>
   );

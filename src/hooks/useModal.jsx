@@ -11,7 +11,6 @@ export default function useModal(children) {
   const closeModal = useCallback(() => setIsModalOpen(false), []);
   const containerRef = useClickOutside(closeModal);
 
-  // prevent background scroll
   useEffect(() => {
     if (!isModalOpen) return;
     document.body.style.overflow = 'hidden';

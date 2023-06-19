@@ -6,10 +6,10 @@
 
 .title {
   color: var(--medium-grey);
-  text-transform: uppercase;
-  letter-spacing: 2px;
   font-size: 14px;
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   padding-bottom: 0.75em;
 }
 
@@ -27,23 +27,18 @@
 }
 
 .option label {
-  cursor: pointer;
-  line-height: 1.5em; /* Adjust the value as needed */
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.5px;
-  color: #333;
+  line-height: 1.5em;
   text-transform: capitalize;
+  color: #333;
+  cursor: pointer;
 }
 
 input[type='radio'] {
-  cursor: pointer;
-
-  /* Add if not using autoprefixer */
   -webkit-appearance: none;
-  /* Remove most all native input styles */
   appearance: none;
-  /* Not removed via appearance */
   margin: 0;
 
   font: inherit;
@@ -58,6 +53,7 @@ input[type='radio'] {
   place-content: center;
 
   transform: translateY(1px);
+  cursor: pointer;
 }
 
 input[type='radio']::before {

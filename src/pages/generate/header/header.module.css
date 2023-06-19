@@ -7,13 +7,14 @@
 }
 
 .logo {
-  cursor: pointer;
   font-weight: 750;
   font-size: 32px;
   padding: 0.5em;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {

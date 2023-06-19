@@ -1,7 +1,9 @@
-import useApp from "../../../hooks/useApp";
-import styles from "./header.module.css";
 import { useNavigate } from "react-router-dom";
 import classNames from "classnames";
+
+import useApp from "../../../hooks/useApp";
+
+import styles from "./header.module.css";
 
 export default function Header() {
   const navigate = useNavigate();

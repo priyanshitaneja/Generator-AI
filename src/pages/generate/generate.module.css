@@ -9,9 +9,9 @@
 }
 
 .main {
-  padding: 0 1em 1em;
   display: flex;
   gap: 1.5em;
+  padding: 0 1em 1em;
   overflow: scroll;
 }
 

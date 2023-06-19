@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+
 import styles from './menu-bar.module.css';
 
 export default function MenuBar({ editor }) {

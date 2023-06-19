@@ -1,7 +1,6 @@
 .list {
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: repeat(auto-fill, minmax(285px, 1fr)); */
   gap: 1.5em;
   padding: 2em;
 }

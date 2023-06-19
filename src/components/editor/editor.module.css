@@ -1,29 +1,28 @@
 .container {
-  flex-grow: 1;
   background: var(--white);
   color: var(--black);
   display: flex;
   flex-direction: column;
-
+  flex-grow: 1;
   box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.101545);
   border-radius: 8px;
   overflow-y: scroll;
 }
 
 .editor {
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
   overflow-y: scroll;
 }
 
 .editor > div {
-  flex-grow: 1;
-  /* border: 1px solid red; */
-  padding: 0 1em;
-  margin-top: -5px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  padding: 0 1em;
+  margin-top: -5px;
 }
+
 .editor h1,
 .editor h2,
 .editor h3,

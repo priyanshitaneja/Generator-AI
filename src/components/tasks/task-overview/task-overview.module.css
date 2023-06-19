@@ -1,8 +1,9 @@
 .task {
-  padding: 1.5em;
   display: flex;
   justify-content: space-between;
   gap: 1.75em;
+  padding: 1.5em;
+
   cursor: pointer;
 }
 

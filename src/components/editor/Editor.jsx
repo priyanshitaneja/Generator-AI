@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import Image from "@tiptap/extension-image";
 import { EditorContent, useEditor } from "@tiptap/react";
+import Image from "@tiptap/extension-image";
 import StarterKit from "@tiptap/starter-kit";
-import styles from "./editor.module.css";
+
 import MenuBar from "./menu-bar/MenuBar";
 import Button from "../ui/button/Button";
 import useApp from "../../hooks/useApp";
@@ -12,6 +12,8 @@ import buildPrompt from "../../utils/buildPrompt";
 import LinearLoading from "../ui/linear-loading/LinearLoading";
 
 import { SSE } from "sse.js";
+
+import styles from "./editor.module.css";
 
 const URL = "https://xzcrqccpdldulsshrrci.supabase.co/functions/v1/openai";
 const streamEndIndicator = "[DONE]";

@@ -1,9 +1,10 @@
 import { useRef, useState } from 'react';
 import Card from '../../ui/card/Card';
-import styles from './create-task.module.css';
 import Button from '../../ui/button/Button';
 import useApp from '../../../hooks/useApp';
 import Close from '../../ui/Close';
+
+import styles from './create-task.module.css';
 
 export default function CreateTask({ closeModal }) {
   const [title, setTitle] = useState('');

@@ -1,8 +1,9 @@
 import Editor from '../../components/editor/Editor';
 import Options from '../../components/options/Options';
 import { GenerateProvider } from '../../context/GenerateContext';
-import styles from './generate.module.css';
 import Header from './header/Header';
+
+import styles from './generate.module.css';
 
 export default function Generate() {
   return (
